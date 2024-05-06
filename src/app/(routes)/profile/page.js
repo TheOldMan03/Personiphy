@@ -39,26 +39,48 @@ export default function Profile() {
 
         <div className="flex flex-col w-2/5 h-2/5 items-center">
           <h1 className="text-2xl block mx-auto my-4 font-bold">
-            Your Traits in Action
+            Know your traits
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
-            dignissimos accusantium eos pariatur voluptate voluptates asperiores
-            nam delectus quibusdam eligendi et, quia est harum recusandae eaque
-            itaque totam? Iusto debitis laudantium ipsum rerum. Deserunt quasi,
-            quidem incidunt blanditiis corrupti itaque accusantium cum quas,
-            quis provident quisquam odit. Ipsa id eos repellendus tempora
-            laudantium eligendi animi minus, aliquid saepe quo sunt provident a
-            asperiores libero nam in eius cupiditate? Tempora dolor aut, quia
-            dignissimos, ex dicta incidunt voluptate excepturi recusandae,
-            ratione ut. Id ratione sed, cupiditate quaerat magnam delectus?
-            Labore possimus maiores soluta ducimus nam nobis. Soluta ullam
-            recusandae dolorum quia ipsa excepturi, amet, velit consectetur,
-            cupiditate repellat deleniti. Laborum libero labore totam rerum,
-            magnam laudantium id! Accusamus qui saepe quas voluptatem atque
-            veritatis, ab delectus id illum in quo eveniet ipsa deleniti
-            praesentium veniam aut, eaque repudiandae eos. Qui est cupiditate
-            dolorum alias facilis quibusdam sint rem! Amet, vero modi.
+          <p className="text-xl">
+            <span className="font-semibold">Openness to Experience</span>
+            : This trait reflects a person&apos;s general interest in novelty,
+            variety, and intellectual stimulation. Individuals high in openness
+            are: Curious and eager to learn new things. Open to trying new
+            experiences and exploring different ideas. Imaginative and creative.
+            Appreciative of art, beauty, and new cultures. Comfortable with
+            ambiguity and change.
+            <br />
+            <br />
+            <span className="font-semibold">Conscientiousness</span>: This trait
+            encompasses a person&apos;s level of organization, self-discipline,
+            and goal-oriented behavior. Individuals high in conscientiousness
+            are: Careful and thorough in their work. Reliable and dependable.
+            Planful and organized. Good at self-control and delaying
+            gratification. Driven to achieve their goals.
+            <br />
+            <br />
+            <span className="font-semibold">Extraversion</span>: This trait
+            reflects a person&apos;s preference for social interaction and
+            stimulation. Individuals high in extraversion are: Outgoing and
+            sociable. Energetic and enthusiastic. Talkative and enjoy being the
+            center of attention. Seek out social interaction and thrive in group
+            settings. Feel comfortable expressing their feelings and opinions
+            <br />
+            <br />
+            <span className="font-semibold">Agreeableness</span>: This trait
+            reflects a person&apos;s tendency to be cooperative, empathetic, and
+            trusting. Individuals high in agreeableness are: Kind,
+            compassionate, and helpful. Cooperative and willing to compromise.
+            Trusting and easygoing. Dislike conflict and prefer harmony. Put the
+            needs of others before their own.
+            <br />
+            <br />
+            <span className="font-semibold">Neuroticism</span>: This trait
+            reflects a person&apos;s tendency to experience negative emotions
+            and anxiety. Individuals high in neuroticism are: Prone to worry,
+            anxiety, and stress. Moody and easily upset. Self-conscious and
+            sensitive to criticism. Have a negative outlook on life and tend to
+            focus on the bad. May have difficulty coping with stress.
           </p>
         </div>
       </div>
