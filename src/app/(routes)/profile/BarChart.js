@@ -9,6 +9,10 @@ ChartJS.register(
 
 export default function drawBarGraph({interMData}){
 
+    if(!interMData){
+        return null
+    }
+
 
     const arr=new Array(5).fill(0)
     arr[0]=interMData.open*10

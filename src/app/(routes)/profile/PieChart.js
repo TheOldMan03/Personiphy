@@ -8,6 +8,10 @@ ChartJS.register(
 
 export default function drawPieChart({interMData}){
 
+    if(!interMData){
+        return null
+    }
+
     const arr=new Array(5).fill(0)
     arr[0]=interMData.open*10
     arr[1]=interMData.conscientious*10
